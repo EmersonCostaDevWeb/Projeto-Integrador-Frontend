@@ -45,5 +45,5 @@ npm run test
 ## API Deployada
 
 A API backend está deployada e pode ser acessada em: ``.
-O repositório backend está no link: `https://github.com/EmersonCostaDevWeb/projeto-integrador-backend`.
+O repositório backend está no link: <a>https://github.com/EmersonCostaDevWeb/projeto-integrador-backend</a>.
 
