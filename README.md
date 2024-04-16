@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Projeto Labeddit Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Este é um projeto fullstack com foco em implementar uma solução de rede social onde os usuários podem postar e comentar em posts. O projeto utiliza as tecnologias React.js para o frontend e Express.js, TypeScript e SQLite para o backend. O design é baseado no conceito "mobile first", priorizando a experiência em dispositivos móveis.
 
-## Available Scripts
+# LABEDDIT
 
-In the project directory, you can run:
+Este é um projeto fullstack com foco em implementar uma solução de rede social onde os usuários podem postar e comentar em posts. O projeto utiliza as tecnologias React.js para o frontend e Express.js, TypeScript e SQLite para o backend. O design é baseado no conceito "mobile first", priorizando a experiência em dispositivos móveis.
 
-### `npm start`
+## Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Fluxo de login e cadastro de usuários.
+- Criação de posts.
+- Comentários em posts.
+- Exclusão de posts.
+- Cobertura de testes backend.
+- Deploy da API.
+- Documentação README e POSTMAN para facilitar a compreensão e uso do projeto.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Fluxo de Login e Cadastro
 
-### `npm test`
+- Na página inicial, você pode se cadastrar como um novo usuário ou fazer login se já tiver uma conta.
+- Preencha os campos necessários e siga as instruções na tela para criar uma nova conta ou fazer login.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Criação de Posts
 
-### `npm run build`
+- Após fazer login, você será redirecionado para a página inicial.
+- Clique no botão "Criar Post" para abrir o formulário de criação de um novo post.
+- Preencha o título e o conteúdo do post e clique em "Enviar" para criar o post.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Comentários em Posts
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Na página inicial, você verá uma lista de posts existentes.
+- Clique em um post para abrir a página de detalhes do post.
+- Na página de detalhes, você pode visualizar os comentários existentes e adicionar um novo comentário na seção de comentários.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Exclusão de Posts
 
-### `npm run eject`
+- Na página inicial, você verá uma lista de posts existentes.
+- Clique no ícone de lixeira ao lado de um post para excluí-lo.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Testes
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+O projeto possui uma cobertura de testes backend para garantir a qualidade do código. Para executar os testes, execute o seguinte comando no diretório `backend`:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+npm run test
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## API Deployada
 
-## Learn More
+A API backend está deployada e pode ser acessada em: ``.
+O repositório backend está no link: `https://github.com/EmersonCostaDevWeb/projeto-integrador-backend`.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
