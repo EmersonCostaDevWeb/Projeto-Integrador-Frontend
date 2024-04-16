@@ -2,10 +2,6 @@
 
 <p>Este é um projeto fullstack com foco em implementar uma solução de rede social onde os usuários podem postar e comentar em posts. O projeto utiliza as tecnologias React.js para o frontend e Express.js, TypeScript e SQLite para o backend. O design é baseado no conceito "mobile first", priorizando a experiência em dispositivos móveis.</p>
 
-# LABEDDIT
-
-Este é um projeto fullstack com foco em implementar uma solução de rede social onde os usuários podem postar e comentar em posts. O projeto utiliza as tecnologias React.js para o frontend e Express.js, TypeScript e SQLite para o backend. O design é baseado no conceito "mobile first", priorizando a experiência em dispositivos móveis.
-
 ## Funcionalidades
 
 - Fluxo de login e cadastro de usuários.
